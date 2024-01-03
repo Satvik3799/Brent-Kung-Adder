@@ -1,0 +1,103 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Bent_Kurg_Adder_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/Bent_Kurg_Adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:40:10 on Nov 09,2023
+# vcom -reportprogress 300 -93 -work work E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/Bent_Kurg_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andgate
+# -- Compiling architecture trivial of andgate
+# -- Compiling entity xorgate
+# -- Compiling architecture trivial of xorgate
+# -- Compiling entity abcgate
+# -- Compiling architecture trivial of abcgate
+# -- Compiling entity Cin_map_G
+# -- Compiling architecture trivial of Cin_map_G
+# -- Loading package NUMERIC_STD
+# -- Compiling entity brent_kung
+# -- Compiling architecture rtl of brent_kung
+# End time: 21:40:10 on Nov 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/tb_brent_kung.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:40:10 on Nov 09,2023
+# vcom -reportprogress 300 -93 -work work E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/tb_brent_kung.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_test
+# -- Compiling architecture tb_rtl of tb_test
+# End time: 21:40:10 on Nov 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  tb_test
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" tb_test 
+# Start time: 21:40:11 on Nov 09,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_test(tb_rtl)
+# Loading work.brent_kung(rtl)
+# Loading work.cin_map_g(trivial)
+# Loading work.xorgate(trivial)
+# Loading work.andgate(trivial)
+# Loading work.abcgate(trivial)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: Success!!
+#    Time: 50 ns  Iteration: 0  Instance: /tb_test
+# ** Note: Error
+#    Time: 100 ns  Iteration: 0  Instance: /tb_test
+# ** Note: Success!!
+#    Time: 150 ns  Iteration: 0  Instance: /tb_test
+# ** Note: Success!!
+#    Time: 200 ns  Iteration: 0  Instance: /tb_test
+# ** Note: Success!!
+#    Time: 250 ns  Iteration: 0  Instance: /tb_test
+# ** Note: Success!!
+#    Time: 300 ns  Iteration: 0  Instance: /tb_test
+# ** Note: Success!!
+#    Time: 350 ns  Iteration: 0  Instance: /tb_test
+# ** Note: Success!!
+#    Time: 400 ns  Iteration: 0  Instance: /tb_test
+# ** Note: Success!!
+#    Time: 450 ns  Iteration: 0  Instance: /tb_test
+# ** Note: Error
+#    Time: 500 ns  Iteration: 0  Instance: /tb_test
+# ** Error: (vsim-3953) STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+#    Time: 500 ns  Iteration: 0  Instance: /tb_test
+# ** Error: (vsim-3953) STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+#    Time: 500 ns  Iteration: 0  Instance: /tb_test
+# ** Error: (vsim-3953) STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+#    Time: 500 ns  Iteration: 0  Instance: /tb_test
+# ** Fatal: (vsim-3551) TEXTIO : Read past end of file "inputs.txt".
+#    Time: 500 ns  Iteration: 0  Process: /tb_test/read_process File: E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/tb_brent_kung.vhd
+# Fatal error in Process read_process at E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/tb_brent_kung.vhd line 56
+# 
+# HDL call sequence:
+# Stopped at E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/tb_brent_kung.vhd 56 Process read_process
+# 
+# End time: 21:47:32 on Nov 09,2023, Elapsed time: 0:07:21
+# Errors: 7, Warnings: 0

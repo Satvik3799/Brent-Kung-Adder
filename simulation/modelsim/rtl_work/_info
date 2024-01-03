@@ -1,0 +1,250 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/simulation/modelsim
+Eabcgate
+Z1 w1699129808
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/Bent_Kurg_Adder.vhd
+Z5 FE:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/Bent_Kurg_Adder.vhd
+l0
+L27
+VikYjGMKP3cbA=jD27EbNU3
+!s100 j5U_9aD3Lfz9;ZHE90Lgg3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1699546210
+!i10b 1
+Z8 !s108 1699546210.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/Bent_Kurg_Adder.vhd|
+Z10 !s107 E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/Bent_Kurg_Adder.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Atrivial
+R2
+R3
+DEx4 work 7 abcgate 0 22 ikYjGMKP3cbA=jD27EbNU3
+l32
+L31
+VBZz^4c^c0S[]o?cBW[]<P2
+!s100 O`fP[?`Ede?8i=G<zfR>g0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eandgate
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L5
+VVkCK^3FW1gdR6z3E;C78_2
+!s100 `GbcR<7bki_D:G;0Na0hP3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Atrivial
+R2
+R3
+DEx4 work 7 andgate 0 22 VkCK^3FW1gdR6z3E;C78_2
+l10
+L9
+Vf8>V@0Z^_4>;4:zk]=[6S2
+!s100 kj]eZ4N6Q2LkXAE4MD6[d0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebrent_kung
+R1
+Z13 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+R4
+R5
+l0
+L58
+Vle4HH<TMVk_9AQKVSDHAJ3
+!s100 >WFCI]a;75iNLeCi@n2VO0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Artl
+R13
+R2
+R3
+DEx4 work 10 brent_kung 0 22 le4HH<TMVk_9AQKVSDHAJ3
+l97
+L65
+V[n:HOKCL5Fd=ZZaelnL5R3
+!s100 cz1Q<4G>k>jH_b@K<mdoC3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecin_map_g
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L41
+VUnWGz_ABYBIi1X4`_HbRJ2
+!s100 0zBN3QUd493CYbSd[?0040
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Atrivial
+R2
+R3
+DEx4 work 9 cin_map_g 0 22 UnWGz_ABYBIi1X4`_HbRJ2
+l46
+L45
+Vh9DC`nK=oQQ7mV^G7lMcX3
+!s100 k?V3mP]lJ_jedKQNHoJXL0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_test
+Z14 w1699132280
+R13
+R3
+Z15 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R2
+R0
+Z16 8E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/tb_brent_kung.vhd
+Z17 FE:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/tb_brent_kung.vhd
+l0
+L8
+V9ja959>_>0cEA>NS2lXk]3
+!s100 XS>>=L8hcc=HWQPn7EA>K0
+R6
+31
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-93|-work|work|E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/tb_brent_kung.vhd|
+Z19 !s107 E:/M.tech/IITB/Sem_1/EE 671 VLSI Design/Assignments/Assignment 3/tb_brent_kung.vhd|
+!i113 1
+R11
+R12
+Atb_rtl
+R13
+R3
+R15
+R2
+DEx4 work 7 tb_test 0 22 9ja959>_>0cEA>NS2lXk]3
+l29
+L11
+VeOhaQ=cZGXi]UV_NNb7db2
+!s100 _AY643c6DhZmkIaFa2><l2
+R6
+31
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Exorgate
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L16
+V<zefInWlYILbG=fb8ZG>70
+!s100 2fOklamDh5X:il>>7O^0Q3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Atrivial
+R2
+R3
+DEx4 work 7 xorgate 0 22 <zefInWlYILbG=fb8ZG>70
+l21
+L20
+VRlf7<QaEdl=laW4JYnofY3
+!s100 >b8S5d6J^fH5H[CfiC4P73
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
